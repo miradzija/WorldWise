@@ -1,0 +1,20 @@
+.nav {
+  background-color: steelblue;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Helvetica;
+}
+
+.nav :global(.active) {
+  background-color: green;
+}
